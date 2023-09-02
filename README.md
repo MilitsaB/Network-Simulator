@@ -1,5 +1,9 @@
 # Network-Simulator
 
+UDP-ifying httpc and httpfs library. 
+
+This project reimplements an HTTP client and server to use UDP instead of TCP by implementing selective repeat ARQ for reliability over an unreliable network in a simulated environment. The goal is to ensure reliable data transfer when using the connectionless UDP protocol.
+
 ## Setting Up
 
 
